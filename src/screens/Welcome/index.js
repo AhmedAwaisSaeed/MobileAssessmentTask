@@ -3,7 +3,7 @@ import {StyleSheet, Text, TextInput, View, SafeAreaView} from 'react-native';
 import CustomButton from '../../components/Buttons/CustomButton';
 const Welcome = ({navigation}) => {
   const onPressRegister = () => {
-    navigation.navigate('Login');
+    navigation.navigate('Register');
   };
   return (
     <SafeAreaView style={styles.safeContainer}>
